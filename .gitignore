@@ -2,6 +2,9 @@
 /target/
 build/
 
+# Ignore workspace-specific files
+.idea/
+
 # Maven wrapper
 .mvn/
 !**/mvn/wrapper/maven-wrapper.jar
