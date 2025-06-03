@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="eMag e2e">
+    <test name ="Category Page Sorting And Filtering On Phones Page">
+        <classes>
+            <class>tests.category.CategoryPagePhonesSortingAndFilteringTest</class>
+
+        </classes>
+
+    </test>
+
+</suite>
