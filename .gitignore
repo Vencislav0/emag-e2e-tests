@@ -1,7 +1,25 @@
+# Maven build output
+/target/
+
+# Maven wrapper
+.mvn/
+!**/mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
 # Compiled class file
 *.class
 
-# Log file
+# Allure test output
+allure-results/
+allure-report/
+
+# Test reports (Maven Surefire/Failsafe)
+/target/surefire-reports/
+/target/failsafe-reports/
+
+# Logs
+logs/
 *.log
 
 # BlueJ files
@@ -22,3 +40,8 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Environment and secrets
+.env
+*.key
+*.pem
